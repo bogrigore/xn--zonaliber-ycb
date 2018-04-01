@@ -29,9 +29,6 @@
     </div>
     <script type="text/javascript">
       Amplitude.init({
-        "autoplay":true,
-				"debug":true,
-				"volume":0.8,
 				"bindings": {
           37: 'prev',
           39: 'next',
@@ -42,9 +39,11 @@
             "live": true,
 						"url": "http://xn--zonaliber-ycb.com:8000/zona-64-kbps.ogg",
             "cover_art_url": "img/debugger.png"
-						
-          }
-        ]
+					}
+        ],
+				"autoplay": true,
+				"debug": true,
+				"volume": 1
       });
 
       window.onkeydown = function(e) {
